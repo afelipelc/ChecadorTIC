@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2" >
+
+        <Button
+            android:id="@+id/respaldarBDBtn"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/respaldarbd"
+            android:layout_width="160dp" />
+
+        <Button
+            android:id="@+id/restaurarBDbtn"
+            android:layout_gravity="left|top"
+            android:text="@string/restautarbd"
+            android:layout_width="160dp"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:id="@+id/cambiarPinBtn"
+            android:layout_width="160dp"
+            android:layout_gravity="left|top"
+            android:text="@string/cambiar_pin"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/eliminarDatosBtn"
+            android:layout_gravity="left|top"
+            android:text="@string/eliminar_datos"
+            android:layout_width="160dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp" />
+
+        <Space
+            android:layout_width="14dp"
+            android:layout_column="1"
+            android:layout_gravity="fill_vertical"
+            android:layout_row="1" />
+    </GridLayout>
+
+</RelativeLayout>

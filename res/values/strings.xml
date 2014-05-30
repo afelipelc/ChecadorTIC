@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Checador TIC</string>
+    <string name="action_admin">Administrador</string>
+    <string name="action_out">Salir</string>
+    <string name="title_main_layout">Registrar tu Ingreso/Egreso</string>
+    <string name="title_activity_checador">Tomar foto</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_preview">Tu foto</string>
+    <string name="title_activity_logs">Registros</string>
+    <string name="title_section1">Hoy</string>
+    <string name="title_section2">Semana</string>
+    <string name="title_section3">Consulta</string>
+    <string name="title_section4">Opciones</string>
+    <string name="images_folder">ChecadorTic</string>
+    <string name="fecha_inicio">Del</string>
+    <string name="fecha_fin">hasta</string>
+    <string name="cargar">Del día</string>
+    <string name="title_activity_logs_rango">Registros por rango.</string>
+    <string name="nologs">No se encontraron registros.</string>
+    <string name="respaldarbd">Respaldar BD</string>
+    <string name="restautarbd">Restaurar BD</string>
+    <string name="cambiar_pin">Cambiar PIN</string>
+    <string name="eliminar_datos">Eliminar Datos</string>
+    <string name="title_activity_login">Ingresar PIN</string>
+    <string name="ingresar"><b> Ingresar </b></string>
+    <string name="ingresar_pin">Ingresa el PIN</string>
+    <string name="default_pin">PIN por defecto</string>
+
+</resources>

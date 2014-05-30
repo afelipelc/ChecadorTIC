@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utim.tic.checador"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="mx.edu.utim.tic.checador.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mx.edu.utim.tic.checador.activity.ChecadorActivity"
+            android:label="@string/title_activity_checador" >
+        </activity>
+        <activity
+            android:name="mx.edu.utim.tic.checador.activity.PreviewActivity"
+            android:label="@string/title_activity_preview"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="mx.edu.utim.tic.checador.activity.LogsActivity"
+            android:label="@string/title_activity_logs" >
+        </activity>
+        <activity
+            android:name="mx.edu.utim.tic.checador.activity.LogsRangoActivity"
+            android:label="@string/title_activity_logs_rango" >
+        </activity>
+        <activity
+            android:name="mx.edu.utim.tic.checador.activity.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+    </application>
+
+</manifest>

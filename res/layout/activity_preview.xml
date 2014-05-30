@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainPreviewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreviewActivity"
+    android:background="#363636" >
+
+    <ImageView
+        android:id="@+id/pictureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cameraicon"
+        android:adjustViewBounds="true"
+         android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/backicon" />
+
+    <TextView
+        android:id="@+id/fechaPreviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="/  /"
+        android:layout_marginTop="24dp"
+        android:textColor="#ED5300"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

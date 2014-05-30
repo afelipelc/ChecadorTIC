@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp" >
+
+        <Button
+            android:id="@+id/respaldarBDBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/respaldarbd"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/restaurarBDbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restautarbd"
+            android:layout_marginTop="18dp" />
+
+        <Button
+            android:id="@+id/cambiarPinBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cambiar_pin"
+            android:layout_marginTop="18dp" />
+
+        <Button
+            android:id="@+id/eliminarDatosBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eliminar_datos"
+            android:layout_marginTop="18dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
